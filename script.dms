@@ -1,0 +1,9 @@
+create -f file2
+create -h file2 lnk2file2
+create -d datadir
+fileconverter flightData.bin datadir
+indexer datadir
+indexer aaindx.txt datadir/AA.txt
+srchindx -o ORD aaindx.txt datadir > foo.txt
+srchindx -d MIA datadir
+quit
