@@ -1,6 +1,8 @@
 # In-memory-Database
 
-#Create Function
+##Create Function
 
 1.Create file:
+```
 create -f 'filename'
+```
